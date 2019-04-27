@@ -1,0 +1,10 @@
+---
+layout: post
+title: <%= post['title'] %>
+author: dreamhead
+date: <%= post['date'] %> <%= post['time'] %>:00 +0800
+tags: [ <%= post['tags']&.map{|t| "'#{t}'"}&.join(', ') %> ]
+categories: [ <%= post['tags']&.map{|t| "'#{t}'"}&.join(', ') %> ]
+---
+
+<%= post['markdown'] %>
