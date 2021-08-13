@@ -3,7 +3,7 @@
 This repo is an extraction from [archive.org](https://archive.org) for [dreamhead.blogbus.com](http://dreamhead.blogbus.com)
 
 ## Jekyll
-
+* install ruby gems by running `bundle install`
 * this repo uses [jekyll](https://jekyllrb.com) with [mediumish-theme-jekyll](https://github.com/wowthemesnet/mediumish-theme-jekyll/), run `bundle exec jekyll serve` to view in browser
 * with the MARKDOWN files under *_posts*, it can be transfered to other themes/tools of your choice
 
